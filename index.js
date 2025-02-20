@@ -30,7 +30,7 @@ async function run() {
         // Connect the client to the server	(optional starting in v4.7)
         await client.connect();
         // Send a ping to confirm a successful connection
-        const bookCollections = client.db("BookInventory").collection("Books");
+        const bookCollections = client.db("BookInventory").collection("books");
 
 
         // insert a book to db: Post Method
